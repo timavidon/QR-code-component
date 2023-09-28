@@ -9,6 +9,7 @@ html {
 }
 
 body {
+    font-family: 'Outfit', sans-serif;
     font-size: 1.6rem;
     background-color: #D5E1EF;
 }
@@ -29,6 +30,15 @@ body {
     border-radius: 50px;
 }
 
+.qr-heading {
+
+}
+
+.qr-description {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -36,4 +46,14 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+/* Mobile Design */
+@media screen and (max-width: 375px){
+    
+}
+
+/* Desktop Design Design */
+@media screen and (max-width: 1440px){
+    
 }
