@@ -25,7 +25,7 @@ the purpuse of the project was to learn CSS to style the content and also the re
 ### Links
 
 - Solution URL: [Github](https://github.com/timavidon/frontend-mentor-c1)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://timavidon.github.io/frontend-mentor-c1/)
 - Font: [Outfit](https://fonts.google.com/specimen/Outfit)
 
 ## My process
@@ -34,14 +34,16 @@ the purpuse of the project was to learn CSS to style the content and also the re
 
 - HTML
 - CSS 
-- colors:
-    background: #D5E1EF
-    card: white
-    heading: hsl(218, 44%, 22%)
-    description: hsl(220, 15%, 55%)
+colors:
+    background: #D5E1EF;
+    card: white;
+    heading: hsl(218, 44%, 22%);
+    description: hsl(220, 15%, 55%);
 
 
 ### Continued development
 
 I what to improve my responsive design skills and better/optimized code solutions.
+
+* Still not improve the mobile design.
 
