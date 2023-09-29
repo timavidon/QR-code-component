@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,36 +13,51 @@ html {
 body {
     font-family: 'Outfit', sans-serif;
     font-size: 1.6rem;
+    letter-spacing: 0.5px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #D5E1EF;
 }
 
 .qr-card {
-    margin: 100px 500px;
-    padding: 30px 5px;
-    width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
-    border-radius: 50px;
+    padding: 3rem;
+    margin: 0 2rem;
+    border-radius: 4rem;
+    text-align: center;
 }
 
 .qr-image {
-    border-radius: 50px;
+    width: 100%;
+    border-radius: 1rem;
 }
 
 .qr-heading {
-
+    width: 45rem;
+    margin: 2rem 0;
+    font-weight: 700;
+    font-size: 3rem;
+    color: hsl(218, 44%, 22%);
 }
 
 .qr-description {
-    margin-top: 10px;
+    width: 28rem;
+    margin-top: 0.5rem;
     font-size: 1.5rem;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    /* word-break: break-all; */
 }
 
 .attribution {
-    font-size: 11px;
+    margin-top: 5rem;
+    font-size: 1.1rem;
     text-align: center;
 }
 
@@ -49,11 +66,7 @@ body {
 }
 
 /* Mobile Design */
-@media screen and (max-width: 375px){
-    
-}
+@media screen and (max-width: 375px) {}
 
 /* Desktop Design Design */
-@media screen and (max-width: 1440px){
-    
-}
+@media screen and (max-width: 1440px) {}
