@@ -33,7 +33,7 @@ the purpuse of the project was to learn CSS to style the content and also the re
 
 - HTML
 - CSS 
--colors:
+- colors:
   - Body background: #D5E1EF;
   - QR card background: white;
   - QR heading: hsl(218, 44%, 22%);
