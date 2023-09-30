@@ -20,8 +20,6 @@ the purpuse of the project was to learn CSS to style the content and also the re
 ### Screenshot
 
 ![](./design/desktop-result.png)
-![](./design/mobile-result.png)
-
 
 ### Links
 
