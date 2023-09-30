@@ -47,7 +47,8 @@ body {
 }
 
 .qr-description {
-    margin-bottom: 0.5rem;
+    width: 28rem;
+    margin-bottom: 4rem;
     color: hsl(220, 15%, 55%);
 }
 
