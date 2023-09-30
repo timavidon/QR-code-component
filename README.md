@@ -19,7 +19,8 @@ the purpuse of the project was to learn CSS to style the content and also the re
 
 ### Screenshot
 
-![](./design/dekstop-result.png)
+![](./design/desktop-result.png)
+![](./design/mobile-result.png)
 
 
 ### Links
@@ -34,16 +35,15 @@ the purpuse of the project was to learn CSS to style the content and also the re
 
 - HTML
 - CSS 
-colors:
-    background: #D5E1EF;
-    card: white;
-    heading: hsl(218, 44%, 22%);
-    description: hsl(220, 15%, 55%);
+ -colors:
+    - Body background: #D5E1EF;
+    - QR card background: white;
+    - QR heading: hsl(218, 44%, 22%);
+    - QR description: hsl(220, 15%, 55%);
 
 
 ### Continued development
 
 I what to improve my responsive design skills and better/optimized code solutions.
 
-* Still not improve the mobile design.
 
