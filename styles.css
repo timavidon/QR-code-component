@@ -1,72 +1,82 @@
+:root {
+  --body-bg: hsl(212, 45%, 89%);
+  --qr-card-bg: hsl(0, 0%, 100%);
+  --qr-heading: hsl(218, 44%, 22%);
+  --qr-desc: hsl(220, 15%, 55%);
+}
+
+/* Resets */
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 10px;
+  color-scheme: light dark;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
+p,
+h1 {
+  overflow-wrap: break-word;
+}
+
+/* CSS Style */
 body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Outfit', sans-serif;
-    font-size: 1.6rem;
-    background-color: #D5E1EF;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: "Outfit", sans-serif;
+  margin: 2rem;
+  background-color: var(--body-bg);
+  overflow: hidden;
 }
 
-.qr-container {
-    max-width: 350px;
-    margin: 0 auto;
+main {
+  display: grid;
+  place-items: center;
 }
 
-.qr-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1.5rem;
-    border-radius: 4rem;
-    text-align: center;
-    background-color: #FFFFFF;
+.card {
+  max-width: 22rem;
+  padding: 1.1rem;
+  border-radius: 1.5rem;
+  text-align: center;
+  color: var(--qr-desc);
+  background-color: var(--qr-card-bg);
+  box-shadow: 2px 23px 28px -3px hsl(220, 15%, 55%, 0.15);
 }
 
-.qr-image {
-    width: 100%;
-    border-radius: 2.5rem;
+.image {
+  border-radius: 0.8rem;
 }
 
-.qr-heading {
-    margin: 2rem 0;
-    color: hsl(218, 44%, 22%);
+.card__content {
+  padding: 0.6rem;
 }
 
-.qr-description {
-    width: 28rem;
-    margin-bottom: 4rem;
-    color: hsl(220, 15%, 55%);
+.card__heading {
+  margin-top: 1rem;
+  color: var(--qr-heading);
+}
+
+.card__desc {
+  margin-block: 1rem;
 }
 
 .attribution {
-    margin: 5rem;
-    text-align: center;
+  margin: 2rem auto;
+  text-align: center;
+  color: hsl(0, 0%, 0%);
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
-
-/* Mobile Design */
-@media screen and (max-width: 375px) {
-    .qr-card {
-        margin: 2rem;
-    }
-}
-
-/* Desktop Design Design */
-/* @media screen and (max-width: 1440px) {} */
