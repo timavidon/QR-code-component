@@ -29,7 +29,6 @@ the purpuse of the project was to learn CSS to style the content and also the re
 ### Built with
 
 - HTML
-- CSS, Flexbox
-
+- CSS, Flexbox, Grid
 
 
