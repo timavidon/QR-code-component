@@ -1,8 +1,17 @@
 :root {
+  /* Colors */
   --body-bg: hsl(212, 45%, 89%);
   --qr-card-bg: hsl(0, 0%, 100%);
   --qr-heading: hsl(218, 44%, 22%);
   --qr-desc: hsl(220, 15%, 55%);
+
+  /* font weights */
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  /* font sizes */
+  --fs-400: 0.9375rem;
+  --fs-700: 1.375rem;
 }
 
 /* Resets */
@@ -45,9 +54,9 @@ main {
 }
 
 .card {
-  max-width: 22rem;
-  padding: 1.1rem;
-  border-radius: 1.5rem;
+  max-width: 20rem;
+  padding: 1rem;
+  border-radius: 1.25rem;
   text-align: center;
   color: var(--qr-desc);
   background-color: var(--qr-card-bg);
@@ -55,24 +64,29 @@ main {
 }
 
 .image {
-  border-radius: 0.8rem;
+  border-radius: 0.6rem;
 }
 
 .card__content {
-  padding: 0.6rem;
+  padding: 0.5rem 1rem;
 }
 
 .card__heading {
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-700);
   margin-top: 1rem;
   color: var(--qr-heading);
 }
 
 .card__desc {
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-400);
   margin-block: 1rem;
 }
 
 .attribution {
   margin: 2rem auto;
+  font-size: var(--fs-400);
   text-align: center;
   color: hsl(0, 0%, 0%);
 }

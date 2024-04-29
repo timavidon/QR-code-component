@@ -21,7 +21,7 @@ the purpuse of the project was to learn CSS to style the content and also the re
 
 ### Links
 
-- Solution URL: [Github](https://github.com/timavidon/frontend-mentor-c1)
+- Solution URL: [Github](https://github.com/timavidon/QR-code-component)
 - Live Site URL: [Live Site](https://timavidon.github.io/QR-code-component/)
 
 ## My process
